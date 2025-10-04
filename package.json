@@ -1,0 +1,21 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Um bot de música para Discord que toca vídeos do YouTube.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "music", "youtube"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5",
+    "youtube-search-without-api-key": "^1.0.3"
+  }
+}
